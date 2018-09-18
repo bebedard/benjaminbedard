@@ -1,0 +1,157 @@
+.content-area {
+    width: 820px;
+    margin: auto;
+}
+
+.header-text  {
+    font-size: 26px;
+    font-family: "Lato", sans-serif;
+
+}
+
+
+.site {
+    width: 820px;
+    margin: 0 auto;
+    margin: auto;
+}
+
+.category-header {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    background: #373737;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 10px 7px 39px;
+    font-weight: 700;
+    border-radius: 4px 0 0 4px;
+    
+}
+
+.resume a, p, h1, h2, h3, h4, h5, h6 {
+    font-family:'Lato', sans-serif;
+    
+}
+
+.resume h1 {
+    font-weight: normal;
+}
+
+.resume h3 {
+    color: grey;
+    font-weight: normal;
+}
+
+.resume h4 {
+    color: grey;
+    font-weight: normal;
+}
+
+.resume-line {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.category_title_icon {
+    border-radius: 3px;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color:#4da7d1;
+    top: 0;
+    left: 0;
+}
+
+.resume-header > h1 {
+    color:#CD5C5C;
+    padding-bottom: 10px;
+    
+}
+.resume-line > p {
+    color:#403F3F;
+}
+
+.resume-line > span {
+    color:#403F3F;
+}
+
+.resume-line > a {
+    color:#403F3F;
+    text-decoration: none;
+}
+
+#primary > div > p > a {
+    color:#403F3F;
+    text-decoration: none;
+}
+
+.right {
+    float:right;
+}
+
+.right > a {
+    color:#403F3F;
+    text-decoration: none;
+}
+
+.employment {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.tech-skills {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.tech-skills > p {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.tech-skills > h5 {
+    color:#403F3F;
+}
+
+.experience-header > h3{
+    color: #A0A0A0 !important; 
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.tech-skills-header > h3{
+    color: #A0A0A0 !important; 
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+
+.contact-links span:after {
+    content: "||";
+    color: #525f7f;
+    margin: 0 30px;
+}
+
+.contact-links span:nth-child(3):after {
+    content: "";
+    margin: 0;
+}
+.contact-links {
+    font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 200px;
+    display: flex;
+}
+.contact-links a {
+    position: relative;
+    text-decoration: none;
+    color: #5a5d7a;
+}
+
