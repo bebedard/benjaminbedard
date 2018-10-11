@@ -6,7 +6,7 @@ RUN mkdir -p $GOPATH/src/github.com/benjaminbedard
 WORKDIR $GOPATH/src/github.com/benjaminbedard
 
 # this will cache the npm install step, unless package.json changes
-ADD package.json .
+#ADD package.json .
 ADD yarn.lock .
 RUN yarn install --no-progress
 ADD . .
@@ -27,7 +27,7 @@ COPY --from=builder /bin/app .
 # Bind the app to 0.0.0.0 so it can be seen from outside the container
 ENV ADDR=0.0.0.0
 
-EXPOSE 3001
+EXPOSE 80
 
 # Uncomment to run the migrations before running the binary:
 # CMD /bin/app migrate; /bin/app
